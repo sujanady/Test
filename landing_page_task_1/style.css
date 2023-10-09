@@ -1,0 +1,159 @@
+/* CSS file for Landing page */
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.head {
+    width: 90%;
+    height: 10vh;
+    display: flex;
+    background-color: whitesmoke;
+    justify-content: center;
+    margin: auto;
+    /* text-align: center; */
+}
+
+.logo {
+    display: flex;
+    width: 30%;
+    
+    align-items: center;
+}
+
+.nav {
+    width: 30%;
+}
+.logo-img {
+    height: 8vh;
+}
+
+.heading-2 {
+    font-size: 5vh;
+}
+
+.nav ul{
+    display: flex;
+    justify-content: center;
+    margin-top: 2vh;
+}
+
+.nav ul li {
+    list-style: none;
+    margin-left: 10%;
+    font-size: 4vh;
+    color: black;
+
+}
+
+.nav ul li a {
+    text-decoration: none;
+    cursor: pointer;
+}
+
+.right-middle {
+    width: 30%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.right-img {
+    height: 5vh;
+    margin-left: 10%;
+    cursor: pointer;
+}
+
+.right {
+    width: 10%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.avatar-img {
+    height: 8vh;
+    border: 4px solid black;
+    border-radius: 50%;
+}
+
+.middle {
+    display: flex;
+    height: 60vh;
+    width: 90%;
+    margin: auto;
+    margin-top: 10vh;
+}
+
+.middle-left {
+    width: 35%;
+}
+
+.middle-left-top {
+    height: 35vh;
+    font-size: 10vh;
+}
+
+
+.middle-left-middle {
+    display: flex;
+    height: 15vh;
+    align-items: center;
+    font-size: 3vh;
+}
+
+.middle-left-down {
+    height: 10vh;
+    display: flex;
+}
+
+.button {
+    height: 8vh;
+    width: 40%;
+    margin-right: 10%;
+    color: white;
+    border-radius: 5%;
+    cursor: pointer;
+}
+
+.middle-middle {
+    width: 40%;
+    height: 60vh;
+    display: flex;
+}
+
+.middle-middle-img {
+    width: 90%;;
+    height: 60vh;
+    margin-left: 5%;
+    margin-right: 5%;
+}
+
+.middle-right {
+    width: 22%;
+    height: 60vh;
+    margin-left: 3%;
+}
+
+.middle-right-content {
+    width: 100%;
+    margin-top: 5vh;
+
+}
+
+.middle-right-ele {
+    display: flex;
+    margin-bottom: 5vh;
+    cursor: pointer;
+}
+
+.middle-right-ele img {
+    height: 6vh;
+    background-color: rgb(177, 255, 255);
+}
+
+.middle-right-ele p {
+    font-size: 4vh;
+    margin-left: 5%;
+}
